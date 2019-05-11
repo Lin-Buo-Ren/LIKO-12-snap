@@ -43,6 +43,7 @@ parts:
     organize:
       '*': LIKO-12/
 
+  # Put stage-packages to separate part to avoid the organize rule in the liko-12 part
   liko-12-runtime-deps:
     plugin: nil
     stage-packages:
@@ -112,7 +113,7 @@ layout:
   /usr/share/lua/5.1:
     symlink: $SNAP/usr/share/lua/5.1
 
-  # Fix LUA_CPATH
+  # Fix LUA_CPATH, which is hardcoded at build time in LuaJIT
   /usr/lib/$SNAPCRAFT_ARCH_TRIPLET/lua/5.1:
     symlink: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/lua/5.1
 
