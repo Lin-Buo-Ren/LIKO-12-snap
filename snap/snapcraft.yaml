@@ -12,6 +12,7 @@ description: |
 
   This is not an official distribution of LIKO-12, refer the snap's issue tracker for support: https://github.com/Lin-Buo-Ren/LIKO-12-snap/issues
 
+icon: snap/gui/icon.png
 license: MIT
 
 adopt-info: liko-12
