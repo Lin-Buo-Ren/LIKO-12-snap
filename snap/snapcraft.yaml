@@ -23,7 +23,7 @@ architectures:
 - build-on: ppc64el
 base: core18
 confinement: strict
-grade: devel
+grade: stable
 
 parts:
   liko-12:
