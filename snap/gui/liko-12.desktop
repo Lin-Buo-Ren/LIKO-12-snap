@@ -1,0 +1,12 @@
+# Demonstration desktop entry file for Snapcrafters Template Plus
+# Refer the Desktop Entry Specification on how to write this file:
+# https://specifications.freedesktop.org/desktop-entry-spec
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LIKO-12 (snap)
+Comment=An open-source fantasy computer, powered by LÖVE
+Exec=liko-12
+Icon=${SNAP}/meta/gui/icon.png
+Categories=Development
+
