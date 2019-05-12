@@ -66,6 +66,12 @@ parts:
     prime:
     - -*
 
+  # Small programs to fix issues at runtime
+  launchers:
+    plugin: dump
+    organize:
+      '*': bin/
+
 apps:
   liko-12:
     adapter: full
@@ -73,6 +79,7 @@ apps:
     command-chain:
     - bin/locales-launch
     - bin/love-launch
+    - bin/liko-12-launch
     environment:
       # Workaround libpulsecommon library runtime dependency
       LD_LIBRARY_PATH: $LD_LIBRARY_PATH:$SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/pulseaudio
