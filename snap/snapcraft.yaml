@@ -1,5 +1,5 @@
 name: liko-12
-title: LIKO-12 (UNOFFICIAL)
+title: LIKO-12
 summary: An open-source fantasy computer, powered by LÖVE
 description: |
   LIKO-12 is a fantasy computer that you can use to make, play and share tiny retro-looking games and programs. It comes with a default, fully customizable, DOS-like operating system installed, called DiskOS.
@@ -7,11 +7,6 @@ description: |
   DiskOS provides an environment with basic command line programs and visual game editors.
 
   The created games and programs are saved as disk files that can be easily shared to friends or anyone else.
-
-  **Snap-specific information**
-
-  This is not an official distribution of LIKO-12, refer the snap's issue tracker for support: https://github.com/Lin-Buo-Ren/LIKO-12-snap/issues
-
 icon: snap/gui/icon.png
 license: MIT
 
