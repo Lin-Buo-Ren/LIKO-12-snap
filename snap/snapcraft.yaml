@@ -63,6 +63,7 @@ parts:
 
   # Small programs to fix issues at runtime
   launchers:
+    source: snap/local/launchers
     plugin: dump
     organize:
       '*': bin/
